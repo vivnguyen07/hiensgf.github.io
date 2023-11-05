@@ -1,6 +1,6 @@
 /* Set a background image for your visual novel pages */
 body {
-    background-image: url('C:\Users\vivng\Downloads\room2.png');
+    background-image: ('C:\Users\vivng\Downloads\room2.png');
     background-size: cover; /* Adjusts the image size to cover the entire page */
     background-repeat: no-repeat; /* Prevents image repetition */
 }
