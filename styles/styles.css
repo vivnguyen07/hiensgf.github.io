@@ -1,1 +1,36 @@
+/* Set a background image for your visual novel pages */
+body {
+    background-image: url('C:\Users\vivng\Downloads\room2.png');
+    background-size: cover; /* Adjusts the image size to cover the entire page */
+    background-repeat: no-repeat; /* Prevents image repetition */
+}
+/* Add a semi-transparent overlay for better text readability */
+#visual-novel-text {
+    background: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+    color: #fff; /* Text color on the overlay */
+    padding: 20px; /* Add padding for text content */
+
+/* Style the text in your visual novel */
+#visual-novel-text {
+    font-family: 'YourFont', sans-serif;
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+    line-height: 1.5;
+}
+
+/* Create a border and add padding to the choices */
+#visual-novel-choices button {
+    border: 2px solid #333;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+/* Add a hover effect to the choices */
+#visual-novel-choices button:hover {
+    background-color: #333;
+    color: #fff;
+    transition: background-color 0.3s, color 0.3s;
+}
 
