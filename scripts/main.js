@@ -23,7 +23,6 @@ function updatePage() {
         choice1.textContent = story[storyIndex].choices[0];
         choice2.textContent = story[storyIndex].choices[1];
     } else {
-      print(I love you Happy Anniversary)
         // End of the story, you can add a "The End" message or link to restart.
     }
 }
