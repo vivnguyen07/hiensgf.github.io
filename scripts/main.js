@@ -11,6 +11,12 @@ const story = [
     // Add more pages and choices as needed
 ];
 
+story.push({
+    text: "This is the text for page 3",
+    choices: ["Choice A", "Choice B"]
+});
+
+
 function updatePage() {
     if (storyIndex < story.length) {
         novelText.textContent = story[storyIndex].text;
